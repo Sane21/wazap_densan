@@ -28,9 +28,9 @@ $(function(){
         $('.start').fadeOut(500);
     },3000)
 	
-	var audioBtnM = $('#button_stop');
+	var audioBtnM = $('#stop_button');
 	var audioWrapM = $('#madoka');
-	var audioBtnH = $('#button_start');
+	var audioBtnH = $('#start_button');
 	var audioWrapH = $('#hinana');
 	
 	var audio1 =document.getElementById('audio1');
