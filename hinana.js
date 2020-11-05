@@ -33,11 +33,12 @@ $(function(){
 	var audioBtnH = $('#button_start');
 	var audioWrapH = $('#hinana');
 	
-	var audio =document.getElementById('audio');
+	var audio1 =document.getElementById('audio1');
+	var audio2 =document.getElementById('audio2');
 	
 	audioBtnM.on('click', function () {
     if( audioWrapM.hasClass('play') || audioWrapH.hasClass('play')) {
-      audio.pause();
+      audio1.pause();
       audioWrapH.removeClass('play');
 	audioWrapM.removeClass('play');    
     } 
@@ -47,7 +48,7 @@ $(function(){
     if( audioWrapM.hasClass('play') || audioWrapH.hasClass('play')) {
 
     } else {
-      audio.play();
+      audio2.play();
       audioWrapM.addClass('play');
 	audioWrapH.addClass('play');
     }
