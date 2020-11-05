@@ -12,7 +12,7 @@ $(function(){
             $('.sticky_container').css('background-image','url("img/haikei_dark.png")');
             $('.sticky').css('background','rgba(255,255,255,0)');
             $('#title').html('<img src="img/logo_blood_more.png" id="img">');
-		$('#movie-page').html('<iframe id="movie" src="https://www.youtube.com/embed/zYpt3dPXyNQ?" frameborder="0" allow="accelerometer; autoplay=1; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>');
+		$('#movie-page').html('<iframe id="movie" src="https://www.youtube.com/embed/Xz1ebS_UJFg?" frameborder="0" allow="accelerometer; autoplay=1; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>');
         }
 
         });
@@ -36,7 +36,7 @@ $(function(){
 	var audio1 =document.getElementById('audio1');
 	var audio2 =document.getElementById('audio2');
 	
-	audio2.addClass('play');
+	audio1.addClass('play');
 	
 	audioBtnM.on('click', function () {
     if( audioWrapM.hasClass('play') || audioWrapH.hasClass('play')) {
