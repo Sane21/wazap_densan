@@ -12,7 +12,7 @@ $(function(){
             $('.sticky_container').css('background-image','url("img/haikei_dark.png")');
             $('.sticky').css('background','rgba(255,255,255,0)');
             $('#title').html('<img src="img/logo_blood_more.png" id="img">');
-		$('#movie-page').html('<iframe id="movie" src="https://www.youtube.com/embed/cEw3HLpmnx0?autoplay=1&modestbranding=1" frameborder="0" allow="accelerometer; autoplay=1; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>');
+		$('#movie-page').html('<iframe id="movie" src="https://www.youtube.com/embed/zYpt3dPXyNQ?autoplay=1&modestbranding=1" frameborder="0" allow="accelerometer; autoplay=1; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>');
         }
 
         });
