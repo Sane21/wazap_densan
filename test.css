@@ -140,6 +140,7 @@ body{
   #movie{
     width: 64vw;
     height: 36vw;
+    z-index: 7;
   }
 
   #hist1{
