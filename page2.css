@@ -1,0 +1,144 @@
+.side {
+        /* width: 100px; */
+        position: absolute;
+        /* display: flex; */
+        background-color: rgba(125,188,222);
+        z-index: 5;
+}
+
+
+#leftside {
+        width: 250px;
+        height: 10000px;
+        /* position: absolute; */
+        position: absolute;
+        left: 0px;
+        /* background-image: url(./332642.jpg); */
+        background-color: rgba(125,188,222);
+}
+.side img{
+        width: 100px;
+        height: 100px;
+}
+
+#rightside {
+        width: 250px;
+        height: 10000px;
+        position: absolute;
+        right: 0px;
+        /* background-image: url(./332642.jpg) */
+        /* background-color: black; */
+}
+
+#pic1{
+        /* top: 500px; */
+        position: absolute;
+        width: 200px;
+        height: 200px;
+}
+#pic2{
+        position: absolute;
+        /* width: 100px;
+        height: 100px; */
+}
+#pic3{
+        position: absolute;
+        left: 100px;
+        /* width: 100px;
+        height: 100px; */
+}
+#pic4{
+        position: absolute;
+        /* width: 100px;
+        height: 100px; */
+}
+#pic5{
+        position: absolute;
+        left: 100px;
+        top: 100px;
+        /* width: 100px;
+        height: 100px; */
+}
+#pic6{
+        position: absolute;
+        width: 200px;
+        height: 200px;
+}
+#pic7{
+        position: absolute;
+        right: 100;
+        /* width: 100px;
+        height: 100px; */
+}
+#pic8{
+        position: absolute;
+        right: 100;
+        /* width: 100px;
+        height: 100px; */
+}
+#pic9{
+        position: absolute;
+        right: 0px;
+        /* width: 100px;
+        height: 100px; */
+}
+#pic10{
+        position: absolute;
+        right: 0px;
+        /* width: 100px;
+        height: 100px; */
+}
+
+
+.main{
+        /* background-color: red; */
+        /* display: flex; */
+        position: relative;
+        width: 80%;
+        margin: 0 auto;
+        max-width: 800px;
+        /* display: flex; */
+        /* height: 1000px; */
+        /* width: 925px; */
+        /* left: 250; */
+        text-align: center;
+        background-color: rgba(125,188,222);
+        z-index: 5;
+}
+
+.main2{
+              /* background-color: red; */
+        /* display: flex; */
+        position: relative;
+        width: 80%;
+        margin: 0 auto;
+        max-width: 800px;
+        /* display: flex; */
+        /* height: 1000px; */
+        /* width: 925px; */
+        /* left: 250; */
+        text-align: center;
+}
+
+#click{
+        text-align: center;
+        left: 50vw;
+        transform: translateX(-50%);
+        z-index: 1;
+
+}
+#click img{
+        left: 50vw;
+        transform: translateX(-50%);
+}
+
+.main p{
+        display: none;
+}
+#text3 img{
+        width: 750px;
+        display: none;
+}
+body{
+        background-color: rgba(125,188,222);
+}
