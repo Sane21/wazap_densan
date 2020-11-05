@@ -39,19 +39,17 @@ $(function(){
 	audio1.addClass('play');
 	
 	audioBtnM.on('click', function () {
-    if( audioWrapM.hasClass('play') || audioWrapH.hasClass('play')) {
+    if( audioWrapM.hasClass('play')) {
       audio1.pause();
-      audioWrapH.removeClass('play');
 	audioWrapM.removeClass('play');    
     } 
   });
 	
 	audioBtnH.on('click', function () {
-    if( audioWrapM.hasClass('play') || audioWrapH.hasClass('play')) {
+    if( audioWrapH.hasClass('play')) {
 
     } else {
       audio2.play();
-      audioWrapM.addClass('play');
 	audioWrapH.addClass('play');
     }
   });
