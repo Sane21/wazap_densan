@@ -27,4 +27,30 @@ $(function(){
     setTimeout(function(){
         $('.start').fadeOut(500);
     },3000)
+	
+	var audioBtnM = $('#button_stop');
+	var audioWrapM = $('#madoka');
+	var audioBtnH = $('#button_start');
+	var audioWrapH = $('#hinana');
+	
+	var audio =document.getElementById('audio');
+	
+	audioBtnM.on('click', function () {
+    if( audioWrapM.hasClass('play') || audioWrapH.hasClass('play')) {
+      audio.pause();
+      audioWrapH.removeClass('play');
+	audioWrapM.removeClass('play');    
+    } 
+  });
+	
+	audioBtnH.on('click', function () {
+    if( audioWrapM.hasClass('play') || audioWrapH.hasClass('play')) {
+
+    } else {
+      audio.play();
+      audioWrapM.addClass('play');
+	audioWrapH.addClass('play');
+    }
+  });
+
 });
