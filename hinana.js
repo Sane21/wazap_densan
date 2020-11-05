@@ -36,6 +36,8 @@ $(function(){
 	var audio1 =document.getElementById('audio1');
 	var audio2 =document.getElementById('audio2');
 	
+	audio2.addClass('play');
+	
 	audioBtnM.on('click', function () {
     if( audioWrapM.hasClass('play') || audioWrapH.hasClass('play')) {
       audio1.pause();
